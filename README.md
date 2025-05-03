@@ -52,7 +52,7 @@ Our analysis shows:
   title = {HFT-OFIAnalyzer: Multi-level Order Flow Imbalance Analysis},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/HFT-OFIAnalyzer}
+  url = {https://github.com/Namieta/HFT-OFIAnalyzer}
 }
 
 ## Installation
