@@ -1,0 +1,40 @@
+2025-05-03 14:31:29,982 - __main__ - INFO - Running ALL analyses
+2025-05-03 14:31:29,983 - __main__ - INFO - 
+
+1. RUNNING BASIC OFI ANALYSIS
+2025-05-03 14:31:29,984 - __main__ - INFO - ===============================
+2025-05-03 14:31:29,984 - __main__ - INFO - Running basic OFI analysis
+2025-05-03 14:31:30,051 - __main__ - INFO - Calculating BEST_LEVEL OFI with 15 second intervals
+2025-05-03 14:31:30,101 - __main__ - INFO - Calculated best-level OFI for 273 time buckets
+2025-05-03 14:31:30,110 - __main__ - INFO - Price Impact (PI[1]) for AAPL: R-squared = 0.0002
+2025-05-03 14:31:30,110 - __main__ - INFO - Alpha for AAPL: -0.00000356
+2025-05-03 14:31:30,110 - __main__ - INFO - Beta for AAPL: 0.00000004
+2025-05-03 14:31:30,110 - __main__ - INFO - p-value for AAPL: 0.8131
+2025-05-03 14:31:30,491 - __main__ - INFO - Basic analysis results saved to ofi_results.csv
+2025-05-03 14:31:30,491 - __main__ - INFO - 
+
+2. RUNNING MULTI-LEVEL OFI ANALYSIS
+2025-05-03 14:31:30,491 - __main__ - INFO - =====================================
+2025-05-03 14:31:30,491 - __main__ - INFO - Running multi-level OFI analysis
+2025-05-03 14:31:30,491 - __main__ - INFO - Calculating multi-level OFI with 15 second intervals for 7 levels
+2025-05-03 14:31:30,525 - __main__ - INFO - Calculated multi-level OFI for 273 time buckets
+2025-05-03 14:31:30,525 - __main__ - INFO - Calculating integrated OFI using PCA
+2025-05-03 14:31:30,529 - __main__ - INFO - Symbol AAPL: First principal component explains 52.65% of variance
+2025-05-03 14:31:30,529 - __main__ - INFO - Normalized weights for AAPL: [0.06382743 0.11567486 0.15285181 0.18422337 0.16804759 0.16445911
+ 0.15091582]
+2025-05-03 14:31:30,531 - __main__ - INFO - Estimating price impact models
+2025-05-03 14:31:30,534 - __main__ - INFO - PI[1] for AAPL: R-squared = 0.0002, Beta = 0.00000004
+2025-05-03 14:31:30,534 - __main__ - INFO - PI[1] for AAPL: Alpha = -0.00000356, p-value = 0.81306583
+2025-05-03 14:31:30,536 - __main__ - INFO - PI[I] for AAPL: R-squared = 0.0062, Beta = 0.00001073
+2025-05-03 14:31:30,536 - __main__ - INFO - PI[I] for AAPL: Alpha = -0.00000505, p-value = 0.19450699
+2025-05-03 14:31:31,303 - __main__ - INFO - Correlation matrix saved to ofi_correlation_matrix_AAPL.png
+2025-05-03 14:31:31,309 - __main__ - INFO - Multi-level analysis results saved to multi_level_ofi_results.csv
+2025-05-03 14:31:31,309 - __main__ - INFO - 
+
+3. SKIPPING CROSS-ASSET OFI ANALYSIS
+2025-05-03 14:31:31,309 - __main__ - INFO - =========================================
+2025-05-03 14:31:31,309 - __main__ - INFO - Only one asset (AAPL) found in the dataset.
+2025-05-03 14:31:31,309 - __main__ - INFO - Cross-asset analysis requires multiple assets.
+2025-05-03 14:31:31,309 - __main__ - INFO - 
+
+ALL ANALYSES COMPLETE!
