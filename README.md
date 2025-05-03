@@ -33,7 +33,7 @@ The methodology implements equations (1), (4), (6), (7), and (8) from Cont et al
 
 ## Results
 
-Our analysis shows:
+Analysis shows:
 - First principal component explains 52-62% of variance in multi-level OFI
 - Integrated OFI approach improves R-squared by 31x over best-level approach
 - Strong correlation structure between mid to deep levels of the order book
