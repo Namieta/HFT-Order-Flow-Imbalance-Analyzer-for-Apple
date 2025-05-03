@@ -33,6 +33,11 @@ The methodology implements equations (1), (4), (6), (7), and (8) from Cont et al
 
 ## Results
 
+For
+- Time interval: 15 seconds
+- Order book levels: 7
+- Cross-validation folds: 7
+- 
 Analysis shows:
 - First principal component explains 52-62% of variance in multi-level OFI
 - Integrated OFI approach improves R-squared by 31x over best-level approach
