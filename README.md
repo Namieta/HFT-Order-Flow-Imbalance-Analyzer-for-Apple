@@ -38,16 +38,8 @@ Our analysis shows:
 - Integrated OFI approach improves R-squared by 31x over best-level approach
 - Strong correlation structure between mid to deep levels of the order book
 - Best level (top of book) carries unique information with weak correlation to deeper levels
-
-## Installation
-
-```bash
-git clone https://github.com/yourusername/HFT-OFIAnalyzer.git
-cd HFT-OFIAnalyzer
-pip install -r requirements.txt
-
-**If you use this code in your research, please cite:**
-
+- 
+## If you use this code in your research, please cite:
 @article{cont2023cross,
   title={Cross-impact of order flow imbalance in equity markets},
   author={Cont, Rama and Cucuringu, Mihai and Zhang, Chao},
@@ -62,3 +54,11 @@ pip install -r requirements.txt
   publisher = {GitHub},
   url = {https://github.com/yourusername/HFT-OFIAnalyzer}
 }
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/HFT-OFIAnalyzer.git
+cd HFT-OFIAnalyzer
+pip install -r requirements.txt
+
