@@ -38,7 +38,7 @@ Our analysis shows:
 - Integrated OFI approach improves R-squared by 31x over best-level approach
 - Strong correlation structure between mid to deep levels of the order book
 - Best level (top of book) carries unique information with weak correlation to deeper levels
-- 
+  
 ## If you use this code in your research, please cite:
 @article{cont2023cross,
   title={Cross-impact of order flow imbalance in equity markets},
