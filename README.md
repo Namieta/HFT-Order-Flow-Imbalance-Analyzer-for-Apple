@@ -48,7 +48,7 @@ Our analysis shows:
 }
 
 @misc{HFT-OFIAnalyzer,
-  author = {Your Name},
+  author = {Namita Vilas Sawant},
   title = {HFT-OFIAnalyzer: Multi-level Order Flow Imbalance Analysis},
   year = {2025},
   publisher = {GitHub},
